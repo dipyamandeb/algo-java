@@ -8,9 +8,9 @@
 class Solution {
     public int maxArea(int[] height) {
         // max area = lenght * breadth
-        // breadth os dist. between two vertical lines
+        // breadth is dist. between two vertical lines
         // length will be the min of two vertical lines
-        // move the pointer from the smallest of the two vertical lines
+        // move the pointer away from the smallest of the two vertical lines
 
         int l = 0;
         int r = height.length - 1;
